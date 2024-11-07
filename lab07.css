@@ -24,3 +24,9 @@
 .transition-image:hover{
     opacity: 0.5;
 }
+.scale-div{
+    width: 100px; height: 100px; background-color: lightgray; transition: all; transition-duration: 1s;
+}
+.scale-div:hover{
+    scale: -0.75;
+}

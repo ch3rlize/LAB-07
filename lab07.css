@@ -55,3 +55,9 @@
 .skewed-heading:hover{
     transform: skewX(20deg);
 }
+.skewed-paragraph{
+    transition: all;
+}
+.skewed-paragraph:hover{
+    transform: skewY(15deg);
+}

@@ -11,3 +11,10 @@
 .transition-div:hover{
     width: 200px;
 }
+
+.transition-text{
+    background-color: antiquewhite; transition: all; transition: duration 0.3s; font-size: 16px ;
+}
+.transition-text:hover{
+    font-size: 24px;
+}

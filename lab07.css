@@ -44,8 +44,14 @@
     transform: translateY(-20px);
 }
 .translate-div{
-    height: 100px; width: 100px; background-color: pink;
+    height: 100px; width: 100px; background-color: pink; transition: all;
 }
 .translate-div:hover{
    transform: translateX(-100px)
+}
+.skewed-heading{
+    transition: all;;
+}
+.skewed-heading:hover{
+    transform: skewX(20deg);
 }

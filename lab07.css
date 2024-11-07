@@ -28,5 +28,11 @@
     width: 100px; height: 100px; background-color: lightgray; transition: all; transition-duration: 1s;
 }
 .scale-div:hover{
+    scale: 1.5;
+}
+.scale-image{
+    height: 150px;width: 150px; transition: all; transition-duration: 1s;
+}
+.scale-image:hover{
     scale: -0.75;
 }

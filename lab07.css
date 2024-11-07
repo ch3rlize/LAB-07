@@ -13,8 +13,14 @@
 }
 
 .transition-text{
-    background-color: antiquewhite; transition: all; transition: duration 0.3s; font-size: 16px ;
+   height: 200px; width: 300px; background-color: antiquewhite; transition: all; transition: duration 0.3s; font-size: 16px ;
 }
 .transition-text:hover{
     font-size: 24px;
+}
+.transition-image{
+    height: 150px; width: 150px; transition: all; transition-duration: 0.8s; opacity: 1;
+}
+.transition-image:hover{
+    opacity: 0.5;
 }

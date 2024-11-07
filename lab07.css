@@ -4,3 +4,10 @@
 .transition-button:hover{ 
         background-color: green;
 }
+
+.transition-div{
+    width: 100px; height: 100px;transition: all; transition-duration: 1s; background-color: pink;
+}
+.transition-div:hover{
+    width: 200px;
+}
